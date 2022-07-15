@@ -31,6 +31,25 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+## Instructions
+
+The following installations are required:
+
+First clone the repo and make sure to have already installed MongoDB.
+
+Then run the following in the command line: 
+
+``` npm init -y ``` 
+
+``` npm install express ```
+
+``` npm install mongoose ``` 
+
+``` npm install moment ```
+
+To start the server run the following command: ``` npm start ```
+
+Then open Insomnia Core to test API routes.
 
 ## Demo
 * Start Server: https://drive.google.com/file/d/1hzmkeI_oFnanGZnnaan3M997e8qnLVIb/view
